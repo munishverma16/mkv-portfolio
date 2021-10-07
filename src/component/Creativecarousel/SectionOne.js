@@ -17,7 +17,7 @@ class SectionOne extends Component {
                   </h6>
                   <h2>
                     <SplitText charPoses={charPoses}>
-                      DAPIP - NEW
+                      DAPIP
                     </SplitText>
                   </h2>
                   <p>
