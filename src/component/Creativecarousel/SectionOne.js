@@ -10,21 +10,18 @@ class SectionOne extends Component {
           <div className="container">
             <div className="row align-items-center">
               <div className="col-lg-6">
-                <div className="slider_content">
+                <div className="slider_content" >
                   <h6>
                     <span className="br"></span>
-                    <SplitText charPoses={charPoses}>Photography</SplitText>
+                    <SplitText charPoses={charPoses}>DAPIP - U.S. Department of Education</SplitText>
                   </h6>
                   <h2>
                     <SplitText charPoses={charPoses}>
-                      DAPIP 
+                    Accreditation Database 
                     </SplitText>
                   </h2>
-                  <p>
-                    U.S. Department of Education
-                  </p>
                   <a href="#/" className="see_btn" data-text="See Projects">
-                    See Projects
+                    View Project
                     <span className="arrow">
                       <span className="line"></span>
                     </span>
@@ -35,7 +32,7 @@ class SectionOne extends Component {
                 <div className="slider_image_inner">
                   <span></span>
                   <img
-                    src={require("../../image/new-page/iPad-Landscape.png")}
+                    src={require("../../image/new-page/dapip-project.svg")}
                     alt=""
                   />
                 </div>

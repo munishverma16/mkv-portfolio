@@ -14,22 +14,15 @@ class SectionTwo extends Component {
                 <div className="slider_content slider_content_two">
                   <h6>
                     <span className="br"></span>
-                    <SplitText charPoses={charPoses}>Developer</SplitText>
+                    <SplitText charPoses={charPoses}>University Website Redesign</SplitText>
                   </h6>
                   <h2>
                     <SplitText charPoses={charPoses}>
-                      Martin Solonick Independent
+                    Virginia International University
                     </SplitText>
                   </h2>
-                  <h2 className="bold">
-                    <SplitText charPoses={charPoses}>Frelencer</SplitText>
-                  </h2>
-                  <p>
-                    Start using our easy-to-use tools with multiple options to
-                    improve.
-                  </p>
                   <a href="#/" className="see_btn" data-text="See Projects">
-                    See Projects
+                    View Project
                     <span className="arrow">
                       <span className="line"></span>
                     </span>
@@ -40,7 +33,7 @@ class SectionTwo extends Component {
                 <div className="slider_image_inner">
                   <span></span>
                   <img
-                    src={require("../../image/new-page/2.png")}
+                    src={require("../../image/new-page/viu-project.svg")}
                     alt=""
                   />
                 </div>

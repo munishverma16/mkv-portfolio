@@ -13,19 +13,15 @@ class SectionThree extends Component {
                 <div className="slider_content slider_content_three">
                   <h6>
                     <span className="br"></span>
-                    <SplitText charPoses={charPoses}>Team Works</SplitText>
+                    <SplitText charPoses={charPoses}>Mobile App- UI/UX</SplitText>
                   </h6>
                   <h2>
                     <SplitText charPoses={charPoses}>
-                      Your online project can be ready
+                    Axle - CureShare App
                     </SplitText>
                   </h2>
-                  <p>
-                    Start using our easy-to-use tools with multiple options to
-                    improve.
-                  </p>
                   <a href="#/" className="see_btn" data-text="See Projects">
-                    See Projects
+                    View Project
                     <span className="arrow">
                       <span className="line"></span>
                     </span>
@@ -36,7 +32,7 @@ class SectionThree extends Component {
                 <div className="slider_image_inner">
                   <span></span>
                   <img
-                    src={require("../../image/new-page/iPad-portrait.png")}
+                    src={require("../../image/new-page/cureshare-project.svg")}
                     alt=""
                   />
                 </div>

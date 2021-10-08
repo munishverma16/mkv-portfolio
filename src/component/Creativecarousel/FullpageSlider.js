@@ -9,7 +9,7 @@ import jhonData from "../jhonData";
 
 const FullpageSlider = (fullpageProps) => (
   <div className="scroll_page">
-    <NavbarThree mainlogo="logo2.png" />
+    <NavbarThree mainlogo="logo.svg" />
     <ReactFullpage
       {...fullpageProps}
       render={({ state, fullpageApi }) => {
@@ -26,7 +26,7 @@ const FullpageSlider = (fullpageProps) => (
     <div
       className="section_bg"
       style={{
-        background: "linear-gradient( 90deg, #f66962 0%, #f78232 100%)",
+        background: "linear-gradient( 61deg, #fef2f6 0%, #ebfdfd 100%)",
         position: "absolute",
         height: "100%",
         width: "100%",
@@ -40,46 +40,7 @@ const FullpageSlider = (fullpageProps) => (
         className="list-unstyled memphis"
         id="scene"
       >
-        <li>
-          <img srcSet={require("../../image/new-page/line1.png")} alt="" />
-        </li>
-        <li>
-          <img srcSet={require("../../image/new-page/line2.png")} alt="" />
-        </li>
-        <li>
-          <img srcSet={require("../../image/new-page/line3.png")} alt="" />
-        </li>
-        <li>
-          <img srcSet={require("../../image/new-page/topshape2.png")} alt="" />
-        </li>
-        <li>
-          <img
-            className="layer layer2"
-            data-depth="0.2"
-            srcSet={require("../../image/new-page/shape1.png")}
-            alt=""
-          />
-        </li>
-        <li>
-          <img srcSet={require("../../image/new-page/shape2.png")} alt="" />
-        </li>
-        <li>
-          <img
-            srcSet={require("../../image/new-page/bottomshape.png")}
-            alt=""
-          />
-        </li>
-        <li>
-          <img srcSet={require("../../image/new-page/arrow.png")} alt="" />
-        </li>
-        <li>
-          <img srcSet={require("../../image/new-page/shape3.png")} alt="" />
-        </li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
+
       </ul>
     </div>
   </div>

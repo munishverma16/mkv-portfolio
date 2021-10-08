@@ -1,52 +1,41 @@
 import React, { Component } from "react";
-import Reveal from "react-reveal/Reveal/";
-import Form from "../Form";
+import SplitText from "react-pose-text";
 
-class SectionFour extends Component {
+const charPoses = {};
+class SectionThree extends Component {
   render() {
-    let jhonData = this.props.jhonData;
     return (
-      <div className="section fp-section fp-tabble section_one contact-area">
+      <div className="section fp-section fp-tabble section_one">
         <div className="slider_container">
           <div className="container">
-            <div className="row row-reverse">
-              {jhonData.contact &&
-                jhonData.contact.map((item) => {
-                  return (
-                    <React.Fragment key={item.id}>
-                      <div className="col-md-5">
-                        <Reveal effect="fadeInLeft" duration={500}>
-                          <div className="contact_info">
-                            <h4>{item.title}</h4>
-                            <ul className="nav">
-                              {item.menuItems.map((info) => {
-                                return (
-                                  <li className="item" key={info.id}>
-                                    <div className="media">
-                                      <a href="/#">
-                                        <i className={info.icon}></i>
-                                      </a>
-                                      <div className="media-body">
-                                        <a href="/#">{info.text}</a>
-                                      </div>
-                                    </div>
-                                  </li>
-                                );
-                              })}
-                            </ul>
-                          </div>
-                        </Reveal>
-                      </div>
-                    </React.Fragment>
-                  );
-                })}
-              <div className="col-md-7">
-                <Reveal effect="fadeInRight" duration={800}>
-                  <div className="input_form">
-                    <h4>{jhonData.contacttitle}</h4>
-                    <Form />
-                  </div>
-                </Reveal>
+            <div className="row align-items-center">
+              <div className="col-lg-6">
+                <div className="slider_content slider_content_three">
+                  <h6>
+                    <span className="br"></span>
+                    <SplitText charPoses={charPoses}>BlueCross BlueShield Microsite</SplitText>
+                  </h6>
+                  <h2>
+                    <SplitText charPoses={charPoses}>
+                    Dashboard For BCBS
+                    </SplitText>
+                  </h2>
+                 <a href="#/" className="see_btn" data-text="See Projects">
+                    View Project
+                    <span className="arrow">
+                      <span className="line"></span>
+                    </span>
+                  </a>
+                </div>
+              </div>
+              <div className="col-lg-6">
+                <div className="slider_image_inner">
+                  <span></span>
+                  <img
+                    src={require("../../image/new-page/bcbs-project.svg")}
+                    alt=""
+                  />
+                </div>
               </div>
             </div>
           </div>
@@ -56,4 +45,4 @@ class SectionFour extends Component {
   }
 }
 
-export default SectionFour;
+export default SectionThree;
